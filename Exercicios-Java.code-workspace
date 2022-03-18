@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "Interface"
+		},
+		{
+			"path": "Set"
+		},
+		{
+			"path": "Herança e Polimorfismo - Produtos"
+		},
+		{
+			"path": "Herança e Polimorfismo - Conta"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	}
+}
