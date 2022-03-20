@@ -1,18 +1,14 @@
-## Getting Started
+## Exercicio de Set
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Em um portal de cursos online, cada usuário possui um código único, representado por
+um número inteiro.
 
-## Folder Structure
+Cada instrutor do portal pode ter vários cursos, sendo que um mesmo aluno pode se
+matricular em quantos cursos quiser. Assim, o número total de alunos de um instrutor não
+é simplesmente a soma dos alunos de todos os cursos que ele possui, pois pode haver
+alunos repetidos em mais de um curso.
 
-The workspace contains two folders by default, where:
+O instrutor Alex possui três cursos A, B e C, e deseja saber seu número total de alunos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Seu programa deve ler os alunos dos cursos A, B e C do instrutor Alex, depois mostrar a
+quantidade total e alunos dele, conforme exemplo.
