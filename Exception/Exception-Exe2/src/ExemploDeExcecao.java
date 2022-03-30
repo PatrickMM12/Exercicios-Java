@@ -1,6 +1,3 @@
-import java.util.InputMismatchException;
-
-import javax.swing.JOptionPane;
 
 public class ExemploDeExcecao {
 	public static void main(String[] args) {
@@ -8,16 +5,16 @@ public class ExemploDeExcecao {
 		String var = "ABC";
 		try {
 			int i = Integer.parseInt(var);
-			System.out.println("A variável i vale " + i);
+			System.out.println("A variï¿½vel i vale " + i);
 			}
 		catch (NumberFormatException e) {
-			System.out.println("Não é possível atribuir a string " + var
+			System.out.println("Nï¿½o ï¿½ possï¿½vel atribuir a string " + var
 			+ " a um Objeto Inteiro.\n"
 			+ "A seguinte mensagem foi retornada:\n\n"
 			+ e.getMessage());
 			}
 	    catch(InputMismatchException e){
-	    	System.out.println("Somente inteiros são permitidos!");
+	    	System.out.println("Somente inteiros sï¿½o permitidos!");
 		       
 		    System.out.println("Erro: " + e.getMessage());
 		}

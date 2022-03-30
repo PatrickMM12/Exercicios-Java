@@ -38,7 +38,7 @@ public class ex01 {
 		//catch (ArithmeticException e) {
 			//	System.out.println("Xi deu erro !!! " +e.toString());			
 		//}
-		System.out.println("Resultado divis„o: " + a);
+		System.out.println("Resultado divis√£o: " + a);
 		System.out.println("Fim Divisao");				
 	}
 	

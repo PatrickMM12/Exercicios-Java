@@ -6,10 +6,10 @@ public class Circulo {
 	  private String erro = ""; 
 	  public double solicitaRaioDoCirculo(){
 	    try{
-	      raio = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do raio do círculo: "));
+	      raio = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do raio do cÃ­rculo: "));
 	    }
 	    catch(NumberFormatException e){
-	      JOptionPane.showMessageDialog(null,"Somente números reais são válidos!");
+	      JOptionPane.showMessageDialog(null,"Somente nÃºmeros reais sï¿½o vï¿½lidos!");
 	      erro = e.getMessage();
 	      System.out.println("Erro: " + erro);
 	    }
@@ -22,14 +22,14 @@ public class Circulo {
 	  public double calculaPerimetroDoCirculo(){
 	    double perimetro;
 	    perimetro = 2*Math.PI*raio;
-	    System.out.println("Perímetro: "+String.valueOf(perimetro));
+	    System.out.println("Perï¿½metro: "+String.valueOf(perimetro));
 	    return perimetro;
 	  }
 
 	  public double calculaAreaDoCirculo(){
 	    double area;
 	    area = Math.PI*raio*raio;
-	    JOptionPane.showMessageDialog(null,"Área: " + area);
+	    JOptionPane.showMessageDialog(null,"ï¿½rea: " + area);
 	    return area;
 	  }
 }

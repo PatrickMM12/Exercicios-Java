@@ -1,5 +1,4 @@
-import java.util.*;
-
+import java.util.InputMismatchException;
 import javax.swing.JOptionPane;
 
 public class Divisao {
@@ -12,19 +11,19 @@ public class Divisao {
 	      dividendo = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do dividendo: "));	    	
 	      divisor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do divisor: "));
 	      divisao = (dividendo/divisor);
-	      JOptionPane.showMessageDialog(null,"Divisão: " + divisao);
+	      JOptionPane.showMessageDialog(null,"DivisÃ£o: " + divisao);
 	      resultado = true;
 	    }
 
 	    catch(ArithmeticException e){
-	      JOptionPane.showMessageDialog(null,"Divisão por zero não permitida!");
+	      JOptionPane.showMessageDialog(null,"DivisÃ£o por zero nï¿½o permitida!");
 	      erro = e.getMessage();
 	      System.out.println("Erro: " + erro);
 	      resultado = false;
 	    }
 
 	    catch(NumberFormatException | InputMismatchException e){
-	      JOptionPane.showMessageDialog(null,"Somente inteiros são permitidos!");
+	      JOptionPane.showMessageDialog(null,"Somente inteiros sï¿½o permitidos!");
 	      erro = e.getMessage();
 	      System.out.println("Erro: " + erro);
 	      resultado = false;
